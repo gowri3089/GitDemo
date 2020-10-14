@@ -1,6 +1,2 @@
-resources/APIResources.class
-cucumber/Options/TestRunner.class
-resources/Utils.class
-resources/TestDataBuild.class
-stepDefinitions/Hooks.class
-stepDefinitions/placeValidations.class
+testRunner/loginTestRunner.class
+stepDefinition/login.class
