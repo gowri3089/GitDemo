@@ -69,10 +69,6 @@ public class placeValidations extends Utils {
         user_calls_something_api_with_something_http_request(resource, "GET");
         String expectedname = getJsonPath(response1,"name");
         assertEquals(actualname,expectedname);
-        System.out.println("mofdified code1");
-        System.out.println("mofdified code2");
-        System.out.println("mofdified code3");
-        System.out.println("modified final");
     }
     @Given("DeletePlace payload")
     public void delete_place_payload() throws IOException {
